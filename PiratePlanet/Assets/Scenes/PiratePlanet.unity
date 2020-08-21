@@ -466,6 +466,30 @@ PrefabInstance:
       propertyPath: yRange
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: positionYawFactor
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: controlYawFactor
+      value: -2.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: positionRollFactor
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: controlRollFactor
+      value: 33.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: controlPitchFactor
+      value: -9.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: positonPitchFactor
+      value: 3.64
+      objectReference: {fileID: 0}
     - target: {fileID: 4036050428498259184, guid: b51dd07b7fe6dc34598dfe1696310cfa,
         type: 3}
       propertyPath: m_Name
@@ -474,7 +498,7 @@ PrefabInstance:
     - target: {fileID: 4036050428498259185, guid: b51dd07b7fe6dc34598dfe1696310cfa,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.03
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4036050428498259185, guid: b51dd07b7fe6dc34598dfe1696310cfa,
         type: 3}
