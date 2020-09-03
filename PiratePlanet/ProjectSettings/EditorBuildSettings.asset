@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SplashScreen.unity
-    guid: 71995f9a1fe1b4141bd109f82f71e4b5
-  - enabled: 1
     path: Assets/Scenes/PiratePlanet.unity
     guid: 186c0bdda8ef7744b86669b4ae39c27d
+  - enabled: 0
+    path: Assets/Scenes/SplashScreen.unity
+    guid: 71995f9a1fe1b4141bd109f82f71e4b5
   m_configObjects: {}
