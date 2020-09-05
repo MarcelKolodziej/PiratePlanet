@@ -458,114 +458,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1926377687}
     m_Modifications:
-    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: positionPitchFactor
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: positionYawFactor
-      value: -1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: TriggerModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: CollisionModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: CollisionModule.type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: lengthInSec
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 150
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: CollisionModule.minKillSpeed
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 1.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: EmissionModule.rateOverDistance.scalar
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: TrailModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: CollisionModule.collisionMessages
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: lengthInSec
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 150
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: TriggerModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: CollisionModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: CollisionModule.type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 1.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: EmissionModule.rateOverDistance.scalar
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: TrailModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: CollisionModule.collisionMessages
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: playOnAwake
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: EmissionModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 925636046, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.001
-      objectReference: {fileID: 0}
     - target: {fileID: 4036050428498259184, guid: b51dd07b7fe6dc34598dfe1696310cfa,
         type: 3}
       propertyPath: m_Name
@@ -624,11 +516,6 @@ PrefabInstance:
     - target: {fileID: 4036050428498259185, guid: b51dd07b7fe6dc34598dfe1696310cfa,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5417034857807803301, guid: b51dd07b7fe6dc34598dfe1696310cfa,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1699,7 +1586,6 @@ GameObject:
   - component: {fileID: 1926377686}
   - component: {fileID: 1926377685}
   - component: {fileID: 1926377688}
-  - component: {fileID: 1926377689}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1786,26 +1672,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 279091515}
-  lookAheadForTargetOffset: 5
-  lookAheadForTargetFactor: 0.1
+  lookAheadForTargetOffset: 2
+  lookAheadForTargetFactor: 0
   lookAheadForSpeedOffset: 10
   lookAheadForSpeedFactor: 0.2
   progressStyle: 0
   pointToPointThreshold: 4
   target: {fileID: 1926377687}
---- !u!114 &1926377689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926377684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699279fc8228eb4080fec0bf2e38e1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: 12
 --- !u!1 &2001979358
 GameObject:
   m_ObjectHideFlags: 0
