@@ -458,6 +458,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1926377687}
     m_Modifications:
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: guns
+      value: 
+      objectReference: {fileID: 1448046992}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 1448046992}
+    - target: {fileID: 516049293, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 1743214736}
     - target: {fileID: 751898890, guid: b51dd07b7fe6dc34598dfe1696310cfa, type: 3}
       propertyPath: playOnAwake
       value: 1
@@ -1271,6 +1287,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1448046992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 925636041, guid: b51dd07b7fe6dc34598dfe1696310cfa,
+    type: 3}
+  m_PrefabInstance: {fileID: 359638507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1609096134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,6 +1444,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1743214736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 751898933, guid: b51dd07b7fe6dc34598dfe1696310cfa,
+    type: 3}
+  m_PrefabInstance: {fileID: 359638507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1801787755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1798,9 +1826,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 279091515}
-  lookAheadForTargetOffset: 2
+  lookAheadForTargetOffset: 1
   lookAheadForTargetFactor: 0
-  lookAheadForSpeedOffset: 10
+  lookAheadForSpeedOffset: 5
   lookAheadForSpeedFactor: 0.2
   progressStyle: 0
   pointToPointThreshold: 4

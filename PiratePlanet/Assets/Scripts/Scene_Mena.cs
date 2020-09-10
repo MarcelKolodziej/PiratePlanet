@@ -8,7 +8,7 @@ public class Scene_Mena : MonoBehaviour
     public string sceneName; 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             Invoke("LoadMainScene", 2.0f);
         }
